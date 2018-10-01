@@ -1,0 +1,67 @@
+body{
+	background-color:	#002699;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+nav{
+	background-image: url("./img/background.jpg");
+	height: 150px;
+}
+
+footer{
+	background-color: #D8D8D8;
+}
+
+aside{
+	float: left;
+	width: 40%;
+}
+
+article{
+	float: left;
+	width: 60%
+}
+
+h1{
+	font-size: 30px;
+	color: 	#fff;
+	margin: 0 auto;
+}
+
+h2{
+	font-size: 20px;
+	color: 	#260099;
+	margin: 0 auto;
+}
+
+h3{
+	font-size: 15px;
+	color: 	#fff;
+	margin: 0 auto;
+}
+
+.cat img{
+	max-width: 80%;
+}
+
+.logo img{
+	width: 30%;
+}
+
+.left{
+	float: left;
+	width: 80%;
+}
+
+.main{
+	float: left;
+	width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
